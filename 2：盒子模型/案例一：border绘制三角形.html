@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--h5的标准：声明文档类型 html-->
+<!--根标签:老大 leng='en' 翻译成英文-->
+<html lang="en">
+<head>
+    <!--网页的头部-->
+    <!--规定字符编码：国际编码 UTF-8-->
+    <meta charset="UTF-8">
+    <!--seo 给搜索引擎用-->
+    <meta name="keywords" content="关键词">
+    <!--seo 给搜索引擎用-->
+    <meta name="description" content="网站的概要信息">
+    <!--网页的标题-->
+    <title>案例一：border绘制三角形</title>
+    <style type="text/css">
+
+        /*
+        * 1、将div的宽度设置为50px
+        * 2、将左边设置透明
+        * 3、将右边设置透明
+        * 4、影藏上边框
+        */
+        div {
+            width: 0px;
+            height: 0px;
+            border: 50px solid red;
+            border-top: none;
+            border-left-color: transparent;
+            border-right-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
